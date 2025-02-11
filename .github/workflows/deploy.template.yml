@@ -15,8 +15,8 @@ jobs:
     - name: Setup FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: 195.248.230.219
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        server: ftp.example.com
+        username: ${{ secrets.YOUR_FTP_USERNAME }}
+        password: ${{ secrets.YOUR_FTP_PASSWORD }}
         local-dir: ./
         server-dir: /public_html/
