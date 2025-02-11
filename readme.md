@@ -1,4 +1,3 @@
-# What is this all about?
+# Deploy templates
 
-Github actions model. Deploy to FTP example.
-Any additional methods can be uploaded here (previous testing)
+- FTP deploy ( SamKirkland/FTP-Deploy-Action@v4.3.5 based)
